@@ -1,6 +1,6 @@
 {
     "name": "evo8fx/magento-datadog-logger",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "license": "GPL-3.0",
     "type": "magento2-module",
     "homepage": "https://github.com/evo8fx/magento-datadog-logger",
