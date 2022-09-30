@@ -9,43 +9,6 @@
             <label>Advanced Logger</label>
             <tab>monkeysports</tab>
             <resource>Monkey_DatadogLogger::advanced_logger_config</resource>
-            <group id="elasticsearch" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Elasticsearch</label>
-                <attribute type="expanded">1</attribute>
-                <field id="enabled" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable Elasticsearch Logger</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                </field>
-                <field id="enabled_in_developer_mode" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enabled in Developer Mode</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                </field>
-                <field id="acceptable_level" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Minimum Level</label>
-                    <source_model>Monkey\DatadogLogger\Model\Config\Source\ErrorLevels</source_model>
-                    <comment><![CDATA[
-                    <strong>NOTE:</strong> Setting below level "WARNING" could use up a lot of space very quickly and make a systems administrator very upset!
-                    <br><br>
-                    Policy endpoints are coming soon in Magento 2.3.5 where maximum size and expiry times can be set. These options will be added to the module in a future version.
-                    ]]></comment>
-                </field>
-                <field id="index_suffix" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Index Label Suffix</label>
-                    <comment>This will be used in your index name. The word "default" is used as the suffix if left empty. Alphanumeric only and no spaces.</comment>
-                </field>
-                <group id="connection" translate="label"  sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Connection</label>
-                    <field id="hosts" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                        <label>Hosts</label>
-                        <comment><![CDATA[
-                        In the following format: <code>host:port,host:port</code>.<br>Separate hosts with a comma but without spaces.
-                        <br><br>
-                        For HTTP Auth use the following format: <code>http://user:pass@1.2.3.4:9200</code><br>
-                        For SSL the following format: <code>https://1.2.3.4:9200</code>
-                        ]]></comment>
-                    </field>
-                </group>
-            </group>
             <group id="datadog" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Datadog</label>
                 <attribute type="expanded">1</attribute>
