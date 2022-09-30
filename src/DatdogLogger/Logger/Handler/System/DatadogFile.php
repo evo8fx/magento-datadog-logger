@@ -130,4 +130,9 @@ class DatadogFile extends Base
     {
         return $this->fileName;
     }
+
+    public function getLogFilePath()
+    {
+        return $this->config->getValue(self::CONFIG_LOG_FILE_PATH);
+    }
 }
