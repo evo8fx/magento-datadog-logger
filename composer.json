@@ -1,6 +1,6 @@
 {
     "name": "evo8fx/magento-datadog-logger",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "license": "GPL-3.0",
     "type": "magento2-module",
     "homepage": "https://github.com/evo8fx/magento-datadog-logger",
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Monkey\\DatdogLogger\\": "src/DatdogLogger"
+            "Monkey\\DatdogLogger\\": "src/DatdogLogger/"
         },
         "files": [
             "src/DatdogLogger/registration.php"
