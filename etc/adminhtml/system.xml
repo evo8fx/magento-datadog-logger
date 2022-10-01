@@ -41,7 +41,7 @@
                     </field>
                     <field id="acceptable_level" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Minimum Level</label>
-                        <source_model>Monkey\DatadogLogger\Model\Config\Source\ErrorLevels</source_model>
+                        <source_model>Evo8fx\DatadogLogger\Model\Config\Source\ErrorLevels</source_model>
                         <comment><![CDATA[
                         <strong>NOTE:</strong> Setting below level "WARNING" could potentially create a large amount of records which could substantially increase your costs.
                         ]]></comment>
@@ -71,14 +71,14 @@
                     </field>
                     <field id="acceptable_level" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Minimum Level</label>
-                        <source_model>Monkey\DatadogLogger\Model\Config\Source\ErrorLevels</source_model>
+                        <source_model>Evo8fx\DatadogLogger\Model\Config\Source\ErrorLevels</source_model>
                         <comment><![CDATA[
                         <strong>NOTE:</strong> Setting below level "WARNING" could potentially create a large amount of records which could substantially increase your costs.
                         ]]></comment>
                     </field>
                     <field id="account_region" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Account Region</label>
-                        <source_model>Monkey\DatadogLogger\Model\Config\Source\Datadog\Location</source_model>
+                        <source_model>Evo8fx\DatadogLogger\Model\Config\Source\Datadog\Location</source_model>
                         <comment>If unsure, log into your dashboard and look to see if you are at https://app.datadoghq.eu/ or https://app.datadoghq.com/.</comment>
                     </field>
                     <field id="api_key" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">

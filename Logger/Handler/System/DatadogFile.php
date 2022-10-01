@@ -3,9 +3,9 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Logger\Handler\System;
+namespace Evo8fx\DatadogLogger\Logger\Handler\System;
 
-use Monkey\DatadogLogger\Formatter\DatadogFormatter;
+use Evo8fx\DatadogLogger\Formatter\DatadogFormatter;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\State;
 use Magento\Framework\Filesystem\DriverInterface;
@@ -16,7 +16,7 @@ use Monolog\Logger;
 /**
  * Class DatadogFile
  *
- * @package Monkey\DatadogLogger\Logger\Handler\System
+ * @package Evo8fx\DatadogLogger\Logger\Handler\System
  */
 class DatadogFile extends Base
 {

@@ -4,11 +4,11 @@
  *
  */
 
-namespace Monkey\DatadogLogger\Crontab;
+namespace Evo8fx\DatadogLogger\Crontab;
 
-use Monkey\DatadogLogger\Logger\Handler\System\DatadogFile;
-use Monkey\DatadogLogger\Logger\Handler\System\DatadogHttp;
-use Monkey\DatadogLogger\Model\Api\Record\DatadogHttpInterface;
+use Evo8fx\DatadogLogger\Logger\Handler\System\DatadogFile;
+use Evo8fx\DatadogLogger\Logger\Handler\System\DatadogHttp;
+use Evo8fx\DatadogLogger\Model\Api\Record\DatadogHttpInterface;
 use Psr\Log\LoggerInterface;
 
 class SendToDatadog

@@ -3,7 +3,7 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Formatter;
+namespace Evo8fx\DatadogLogger\Formatter;
 
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -14,7 +14,7 @@ use Monolog\Utils;
 /**
  * Class DatadogFormatter
  *
- * @package Monkey\DatadogLogger\Formatter
+ * @package Evo8fx\DatadogLogger\Formatter
  */
 class DatadogFormatter extends AbstractFormatter implements FormatterInterface
 {

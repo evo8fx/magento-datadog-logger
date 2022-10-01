@@ -3,10 +3,10 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Logger\Handler\System;
+namespace Evo8fx\DatadogLogger\Logger\Handler\System;
 
-use Monkey\DatadogLogger\Formatter\DatadogFormatter;
-use Monkey\DatadogLogger\Model\Api\Record\DatadogHttpInterface;
+use Evo8fx\DatadogLogger\Formatter\DatadogFormatter;
+use Evo8fx\DatadogLogger\Model\Api\Record\DatadogHttpInterface;
 use Exception;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\State;
@@ -17,7 +17,7 @@ use Monolog\Logger;
 /**
  * Class Datadog
  *
- * @package Monkey\DatadogLogger\Logger\Handler\System
+ * @package Evo8fx\DatadogLogger\Logger\Handler\System
  */
 class DatadogHttp extends Base
 {

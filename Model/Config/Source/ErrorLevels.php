@@ -3,7 +3,7 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Model\Config\Source;
+namespace Evo8fx\DatadogLogger\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 use Monolog\Logger;
@@ -11,7 +11,7 @@ use Monolog\Logger;
 /**
  * Class ErrorLevels
  *
- * @package Monkey\DatadogLogger\Model\Config\Source
+ * @package Evo8fx\DatadogLogger\Model\Config\Source
  */
 class ErrorLevels implements OptionSourceInterface
 {

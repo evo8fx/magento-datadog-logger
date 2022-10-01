@@ -3,12 +3,12 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Model\Api\Record;
+namespace Evo8fx\DatadogLogger\Model\Api\Record;
 
 /**
  * Interface DatadogHttpInterface
  *
- * @package Monkey\DatadogLogger\Model\Api\Record
+ * @package Evo8fx\DatadogLogger\Model\Api\Record
  */
 interface DatadogHttpInterface
 {

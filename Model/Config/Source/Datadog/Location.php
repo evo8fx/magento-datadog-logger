@@ -3,14 +3,14 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Model\Config\Source\Datadog;
+namespace Evo8fx\DatadogLogger\Model\Config\Source\Datadog;
 
 use Magento\Framework\Data\OptionSourceInterface;
 
 /**
  * Class Location
  *
- * @package Monkey\DatadogLogger\Model\Config\Source\Datadog
+ * @package Evo8fx\DatadogLogger\Model\Config\Source\Datadog
  */
 class Location implements OptionSourceInterface
 {

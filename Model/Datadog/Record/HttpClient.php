@@ -3,9 +3,9 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Model\Datadog\Record;
+namespace Evo8fx\DatadogLogger\Model\Datadog\Record;
 
-use Monkey\DatadogLogger\Model\Api\Record\DatadogHttpInterface;
+use Evo8fx\DatadogLogger\Model\Api\Record\DatadogHttpInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\HTTP\Client\Curl;
 use Magento\Framework\HTTP\Client\CurlFactory;
@@ -13,7 +13,7 @@ use Magento\Framework\HTTP\Client\CurlFactory;
 /**
  * Class Client
  *
- * @package Monkey\DatadogLogger\Model\Datadog\Record
+ * @package Evo8fx\DatadogLogger\Model\Datadog\Record
  */
 class HttpClient implements DatadogHttpInterface
 {

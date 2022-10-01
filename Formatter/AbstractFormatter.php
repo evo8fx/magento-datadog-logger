@@ -3,7 +3,7 @@
  * Emarketa.
  */
 
-namespace Monkey\DatadogLogger\Formatter;
+namespace Evo8fx\DatadogLogger\Formatter;
 
 use Exception;
 use Monolog\Formatter\FormatterInterface;
@@ -11,7 +11,7 @@ use Monolog\Formatter\FormatterInterface;
 /**
  * Class AbstractFormatter
  *
- * @package Monkey\DatadogLogger\Formatter
+ * @package Evo8fx\DatadogLogger\Formatter
  */
 abstract class AbstractFormatter implements FormatterInterface
 {
