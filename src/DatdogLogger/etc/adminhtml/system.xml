@@ -4,11 +4,11 @@
         <tab id="monkeysports" translate="label" sortOrder="600">
             <label>Monkey Sports</label>
         </tab>
-        <section id="advanced_logger" translate="label" sortOrder="9999" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="datadog_logger" translate="label" sortOrder="9999" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
-            <label>Advanced Logger</label>
+            <label>Datadog Logger</label>
             <tab>monkeysports</tab>
-            <resource>Monkey_DatadogLogger::advanced_logger_config</resource>
+            <resource>Monkey_DatadogLogger::datadog_logger_config</resource>
             <group id="datadog" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Datadog</label>
                 <attribute type="expanded">1</attribute>
