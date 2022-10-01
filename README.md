@@ -2,7 +2,7 @@
 
 ### Version 0.1.0 (Beta) A module to send your Magento 2 logs to Datadog.
 
-This module was born from a need to centralise logs from multiple web nodes running a Magento 2 site. It currently has 3 solutions for sending logs to an external service for consumption and will capture just about everything the Monolog logger (which comes with Magento 2) handles.
+This module was born from a need to centralize logs from multiple web nodes running a Magento 2 site. It currently has 2 solutions for sending logs to an external service for consumption and will capture just about everything the Monolog logger (which comes with Magento 2) handles.
 
 ## Installation
 
@@ -22,21 +22,6 @@ _Requires Magento 2 and PHP 7.0 or above._
 
 * __Index Label Suffix:__ When creating a new index to log to, Advanced Logger will attempt to create an index named `magento_log_[SUFFIX]`. If left blank, the index name will imaginatively default to the word `default` creating the index name `magento_log_default`. You have the opportunity here to have separate index names for different sites or even different store views in Magento 2.
 
-#### Connection
-
-* __Hosts:__ Here you can specify the hosts passed to the Elasticsearch PHP module (https://github.com/elastic/elasticsearch-php). A comma separated list (avoid spaces here) will set-up multiple hosts. Your entry should conform to the following format: `host:port,host:port.` User names and passwords would also be included in the hosts for HTTP Auth.
-
-> Examples:
->
-> For HTTP Auth use the following format: `http://user:pass@1.2.3.4:9200`
->
-> For SSL the following format: `https://1.2.3.4:9200`
->
-> If you need to specify a certificate file, then please add this via the command line like so:
->
-> `bin/magento config:set advanced_logger/elasticsearch/cafile /full/path/to/ca.pem`.
->
-> This will be passed on to the `elastic/elasticsearch-php` module but please note, secure connections to Elasticsearch are not yet fully tested within the context of this module.
 
 ## Datadog Logger
 
